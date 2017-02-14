@@ -39,7 +39,7 @@ public class Game extends GamePieces {
     //this will be called from Main, hence "public"
     //will be called at the end to display stats
     public void displayStats()  {
-        System.out.println("You have played " + (wins + losses + tie));
+        System.out.println("You have played " + (wins + losses + tie) + " games.");
         System.out.println("You have won " + wins +" games.");
         System.out.println("You have lost " + losses +" games.");
         System.out.println("You have tied " + tie +" games.");
